@@ -1,11 +1,10 @@
-﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * This Code was written by Valentin Springer, 
+ * This Code was written by Valentin Springer & Alexander Dengler, 
  * 10.10.2016
  * 
  * The Idea and concept code was written by : James McCaffrey
