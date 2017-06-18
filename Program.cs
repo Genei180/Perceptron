@@ -10,8 +10,7 @@ using System.Threading.Tasks;
  * The Idea and concept code was written by : James McCaffrey
  * and it can be found : https://visualstudiomagazine.com/articles/2013/03/01/pattern-recognition-with-perceptrons.aspx
  * 
- *
- * This is a Perceptron, after Training it can decide 
+ * * This is a Perceptron, after Training it can decide 
  * if an input is the same as for which it was trained
  * 
  * Thanks to people like James McCaffrey who make such code easy understandable and free accessible
@@ -34,7 +33,7 @@ namespace Perceptron
             trainingData[2] = new int[] { 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0 }; // 'C'
             trainingData[3] = new int[] { 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0 }; // 'D'
             trainingData[4] = new int[] { 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0 }; // 'E'
-            trainingData[5] = new int[] { 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 }; // 'F'
+            trainingData[5] = new int[] { 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1 }; // 'F'
             trainingData[6] = new int[] { 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0 }; // 'G'
             trainingData[7] = new int[] { 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0 }; // 'H'
             trainingData[8] = new int[] { 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0 }; // 'I'
